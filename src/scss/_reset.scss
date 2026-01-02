@@ -1,0 +1,20 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body, h1, h2, p {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: var(--ff-primary);
+  background-color: hsl(0, 0%, 98%); 
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
