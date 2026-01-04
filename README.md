@@ -24,14 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./desktop.png)
 
-*(Note: Don't forget to take a screenshot of your final result and name it screenshot.jpg in your root folder!)*
 
 ### Links
 
-- Solution URL: [https://github.com/yourusername/fm-four-card-feature](https://github.com/yourusername/fm-four-card-feature)
-- Live Site URL: [https://yourusername.github.io/fm-four-card-feature](https://yourusername.github.io/fm-four-card-feature)
+- Solution URL: [https://github.com/BaskoroR725/06-four-card-feature-seection.git](https://github.com/BaskoroR725/06-four-card-feature-seection.git)
+- Live Site URL: [https://baskoror725.github.io/06-four-card-feature-seection/](https://baskoror725.github.io/06-four-card-feature-seection/)
 
 ## My process
 
@@ -61,7 +60,6 @@ I learned how to use grid lines to create the unique "cross" layout where the si
   grid-column: 3;
   grid-row: 1 / 3;
 }
-
 ```
 
 **2. Pseudo-elements for UI Detail**
@@ -71,7 +69,7 @@ Using ::before to add the colored top border without adding unnecessary div tags
 .card {
   position: relative;
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -91,8 +89,6 @@ I implemented the prefers-reduced-motion media query to respect users who prefer
     transform: none;
   }
 }
-
-
 ```
 
 ## Author
