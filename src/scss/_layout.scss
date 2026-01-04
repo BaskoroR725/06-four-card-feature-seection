@@ -1,0 +1,33 @@
+.feature-section {
+  padding-block: 5rem;
+  padding-inline: 2rem;
+  max-width: 1110px;
+  margin-inline: auto;
+  text-align: center;
+
+  &__header {
+    margin-bottom: 4.75rem;
+    max-width: 540px;
+    margin-inline: auto;
+  }
+
+  &__title {
+    font-size: var(--fs-h1);
+    font-weight: 600;
+    color: var(--clr-neutral-500);
+    letter-spacing: 0.25px;
+    line-height: 1.2;
+
+    &__light {
+      display: block;
+      font-weight: 200;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  &__description {
+    margin-top: 1rem;
+    color: var(--clr-neutral-400);
+    font-size: var(--fs-body);
+  }
+}
